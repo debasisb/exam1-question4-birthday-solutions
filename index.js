@@ -4,7 +4,7 @@
 const calculator = require('birthday-calculator');
  
 // Instantiate
-const date = new Date('1965,01,07');
+const date = new Date('1995,04,22');
 const result = calculator.getDayWhenBorn(date);
 console.log(result);
 
