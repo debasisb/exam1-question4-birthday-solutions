@@ -4,7 +4,8 @@
 const calculator = require('birthday-calculator');
  
 // Instantiate
-const date = new Date('1965,01,07');
+// Editing date for new branch
+const date = new Date('1990,01,07');
 const result = calculator.getDayWhenBorn(date);
 console.log(result);
 
